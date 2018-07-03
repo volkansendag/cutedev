@@ -1,0 +1,176 @@
+﻿.cute-state-disabled {
+    background-color: red;
+}
+
+.cute-state-selected {
+    background-color: #999;
+    color: white;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.cute-state-focused {
+    background-color: blue;
+}
+
+.cute-buttongroup {
+    margin: 0;
+    border-color: rgb(165, 165, 165);
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    width: 100%;
+    font-size: 14pt;
+    float: left;
+    padding: 5px 0;
+}
+
+    .cute-buttongroup > li {
+        float: left;
+        margin: 0px;
+        text-align: center;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+
+
+/*
+Tabloların seçilmesinin önlenmesi amacıyla hazırlanmıştır.
+*/
+[role=gridcell] {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /*overflow: visible !important;*/
+}
+
+.k-loading.k-complete {
+    display: none;
+}
+
+.k-tabstrip-wrapper {
+    height: 100%;
+}
+
+[role="gridcell"] a.k-button {
+    font-size: 12px;
+    padding: 0px 2px;
+    min-width: 44px !important;
+}
+
+.k-grid-content {
+    /*overflow-y: auto;*/
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    /*min-height:220px;*/
+}
+
+.k-edit-label {
+    width: 20%;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.k-edit-field {
+    width: 70%;
+}
+
+.TabWindow .k-content {
+    padding: 0px 0px;
+}
+
+
+.right {
+    float: right;
+}
+
+.tab-controller {
+    height: 100%;
+}
+
+#tabstrip div.k-content {
+    height: calc(100% - 60px);
+    padding: 0;
+}
+
+.k-window-content {
+    /*padding: 0 !important;*/
+}
+
+
+.fieldlist {
+    margin: 0 0 -2em;
+    padding: 0;
+}
+
+    .fieldlist li {
+        list-style: none;
+        padding-bottom: 2em;
+    }
+
+    .fieldlist label {
+        display: block;
+        padding-bottom: 1em;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 12px;
+        color: #444;
+    }
+
+
+.k-edit-form-container {
+    width: 100% !important;
+    min-width: 400px !important;
+}
+
+.k-loading-mask {
+    z-index: 11002;
+}
+
+
+
+/*Popup formlar için genel düzenlemeler içermektedir.*/
+.popupEditorTemplate > div > ul,
+.popupEditorTemplate > ul,
+.popupEditorTemplate ul.popup_editor_ul,
+.popupEditorTemplate ul.ustbilgi {
+    margin: 0px;
+    padding: 0px;
+}
+
+    .popupEditorTemplate > div > ul > li,
+    .popupEditorTemplate > ul > li,
+    .popupEditorTemplate ul.popup_editor_ul > li,
+    .popupEditorTemplate ul.ustbilgi > li {
+        list-style-type: none;
+    }
+
+    .popupEditorTemplate ul.popup_editor_ul > li {
+        margin: 10px 0px;
+    }
+
+.popupEditorTemplate .ustbilgi > li {
+    margin: 5px 0;
+}
+
+.popupEditorTemplate > div > ul > li > span.k-invalid-msg,
+.popupEditorTemplate > ul > li > span.k-invalid-msg,
+.popupEditorTemplate ul.popup_editor_ul > li > span.k-invalid-msg,
+.popupEditorTemplate ul.ustbilgi > li > span.k-invalid-msg {
+    margin-left: 6px;
+}
+
+.popupEditorTemplate > div > ul > li > label,
+.popupEditorTemplate > ul > li > label,
+.popupEditorTemplate ul.popup_editor_ul > li > label,
+.popupEditorTemplate ul.ustbilgi > li > label {
+    padding: 5px 5px 0px 0px;
+    font-weight: bold;
+    text-align: right;
+    float: left;
+    width: 100px;
+}

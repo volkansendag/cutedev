@@ -1,0 +1,42 @@
+﻿@import url('fontello/fontello.css');
+@import url('elusive/elusive.css');
+@import url('fontawesome/fontawesome.css');
+@import url('iconic/iconic.css');
+@import url('linecons/linecons.css');
+@import url('meteocons/meteocons.css');
+@import url('spinnericon/spinnericon.css');
+@import url('typicons/typicons.css');
+@import url('glyphicons-r/glyphicons-r.css');
+
+.k-sprite[class*=" icon-"] {
+    font-size:24px;
+    height:24px;
+    width:24px;
+}
+
+.k-sprite[class*=" icon-"].size-middle {
+    font-size:16px!important;
+    height:16px!important;
+    width:16px!important;
+}
+
+.k-sprite[class*=" icon-"].size-small {
+    font-size:12px!important;
+    height:12px!important;
+    width:12px!important;
+}
+/*////////////////////////*/
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+}
+ 
